@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:text="Начать"
+        android:background="@drawable/background"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/record"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Счет"
+        android:background="@drawable/background"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exit"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Выйти"
+
+        android:background="@drawable/background"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+</LinearLayout>

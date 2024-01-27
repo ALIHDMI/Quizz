@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragmentlinear"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:fontFamily="@font/bebascyrillic"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+
+
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/firstButton"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:text="Начать"
+            android:background="@drawable/background"
+            android:fontFamily="@font/bebascyrillic"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/secondButton"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:text="Счет"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/background"
+            android:fontFamily="@font/bebascyrillic"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/thirdButton"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:text="Начать"
+            android:background="@drawable/background"
+            android:fontFamily="@font/bebascyrillic"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fourthButton"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:text="Счет"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/background"
+            android:fontFamily="@font/bebascyrillic"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+    </RelativeLayout>
+</LinearLayout>
